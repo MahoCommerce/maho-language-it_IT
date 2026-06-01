@@ -11,22 +11,22 @@
 @-->
 
 {{template config_path="design/email/header"}}
-{{inlinecss file="email-inline.css"}}
+{{inlinecss file="email-inline.cs"}}
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td class="action-content">
             <h1>{{htmlescape var=$customer.name}},</h1>
-            <p>You recently requested a login link for your account.</p>
-            <p>Click the button below to log in to your account:</p>
+            <p>Di recente hai richiesto un link di accesso per il tuo account.</p>
+            <p>Clicca sul pulsante qui sotto per accedere al tuo account:</p>
             <table cellspacing="0" cellpadding="0" class="action-button" >
                 <tr>
                     <td>
-                        <a href="{{store url="customer/account/magiclinklogin/" _query_token=$customer.rp_token}}"><span>Login to Your Account</span></a>
+                        <a href="{{store url=&quot;customer/account/magiclinklogin/&quot; _query_token=$customer.rp_token}}"><span>Accedi al tuo account</span></a>
                     </td>
                 </tr>
             </table>
-            <p>If you did not request this login link, you can safely ignore this message.</p>
+            <p>Se non hai richiesto questo link di accesso, puoi tranquillamente ignorare questo messaggio.</p>
         </td>
     </tr>
 </table>

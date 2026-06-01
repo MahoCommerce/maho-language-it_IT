@@ -1,3 +1,5 @@
+> **Auto-generated** from https://github.com/MahoCommerce/maho-l10n — do not edit this repository directly. Translations are managed on [Crowdin](https://translate.mahocommerce.com) and published from the monorepo.
+
 # Italian (it_IT) language pack for Maho ecommerce platform
 
 This repository contains the it_IT language pack for the Maho e-commerce platform.
@@ -17,7 +19,7 @@ Then activate the language pack for a website/store/storeview within your Maho b
   combobox in the top-left corner of the page
 - Click the `General -> General` section on the sidebar
 - Go to the `Locale Options` subsection
-- Open the `Locale` combobox and select the one you just installed 
+- Open the `Locale` combobox and select the one you just installed
 - Flush cache
 
 Now you can enjoy your Maho based ecommerce website fully translated!
@@ -25,7 +27,7 @@ Now you can enjoy your Maho based ecommerce website fully translated!
 ## Help us make this translation better
 
 * [Contribute to this translation](https://translate.mahocommerce.com)
-* [Maho's main localization repository](https://github.com/MahoCommerce/maho)
+* [Maho's main localization repository](https://github.com/MahoCommerce/maho-l10n)
 
 ## General documentation
 
